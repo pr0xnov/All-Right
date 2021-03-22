@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>All right</title>
+</head>
+<body>
+    
+    <header>
+        <img class="header-img" src="img/logo.png" alt="logo">
+    </header>
+    <div class="wrapper">
+    <div class="main">
+        <img class="main-bg" src="img/head-bg.png" alt="head-bg">
+        <img class="main-img" src="img/head-img.png" alt="head-img">
+    <div class="main-text">
+      <h1>Ваш платеж прошел успешно!</h1>  
+      <p>Это значит, что вы стали на шаг ближе к идеальному английскому!</p>
+      <ul class="main-desc">
+          <li class="main-sum">Сумма:</li>
+          <li class="main-sum-sum">{{ params.SUMM }}</li>
+        </ul>
+        <ul class="main-desc">
+          <li class="main-sum">Назначение:</li>
+          <li class="main-sum-desc">{{ params.DESCRIPTION }}</li>
+        </ul>
+        <div class="main-btn">
+        <input class="main-btn-desc" type="button" value="Забронировать урок">
+    </div>
+    </div>
+    <div class="lesson">
+        <h2>Бесплатный урок за честный отзыв</h2>
+        <p>
+            Хотите получить бесплатное занятие для своего ребенка? 
+            Нет ничего проще! Поделитесь мнением об изучении английского 
+            в нашей школе, отправьте скрин с отзывом нашему администратору 
+            и получите бонус в виде бесплатного урока – он будет ждать вас 
+            в личном кабинете.Выберете один из сервисов, 
+            на котором хотите оставить отзыв
+        </p>
+        <ul>
+            <li><input type="button" value="Facebook"></li>
+            <li><input type="button" value="Truspilot.com"></li>
+            <li><input type="button" value="Otzovik.com"></li>
+            <li><input type="button" value="Zoon.ru"></li>
+            <li><input type="button" value="Yell.ru"></li>
+            <li><input type="button" value="Подробнее о скидках"></li>
+        </ul>
+    </div>
+    </div>
+   
+    </div>
+</body>
+</html>
